@@ -1,0 +1,33 @@
+[ 2026-11-03 20:56:51,533 ] 111 MLProject - INFO - Application Started
+[ 2026-11-03 20:56:51,533 ] 117 MLProject - INFO - Data Ingestion Object Created
+[ 2026-11-03 20:56:51,533 ] 43 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-03 20:56:53,221 ] 53 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-03 20:56:53,231 ] 70 MLProject - INFO - Raw Dataset Saved
+[ 2026-11-03 20:56:53,241 ] 79 MLProject - INFO - Train Test Split Completed
+[ 2026-11-03 20:56:53,248 ] 95 MLProject - INFO - Train and Test Files Saved
+[ 2026-11-03 20:56:53,249 ] 123 MLProject - INFO - Data Ingestion Completed
+[ 2026-11-03 20:56:53,257 ] 131 MLProject - INFO - Data Transformation Object Created
+[ 2026-11-03 20:56:53,257 ] 122 MLProject - INFO - Data Transformation Started
+[ 2026-11-03 20:56:53,276 ] 132 MLProject - INFO - Train Columns: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+[ 2026-11-03 20:56:53,277 ] 136 MLProject - INFO - Train and test datasets loaded successfully
+[ 2026-11-03 20:56:53,284 ] 152 MLProject - INFO - Missing values replaced successfully
+[ 2026-11-03 20:56:53,289 ] 189 MLProject - INFO - Target variable transformed successfully
+[ 2026-11-03 20:56:53,289 ] 105 MLProject - INFO - Preprocessor object created successfully
+[ 2026-11-03 20:56:53,289 ] 197 MLProject - INFO - Applying preprocessing object
+[ 2026-11-03 20:56:53,392 ] 213 MLProject - INFO - Transformation completed successfully
+[ 2026-11-03 20:56:53,392 ] 227 MLProject - INFO - Saving Preprocessor Object
+[ 2026-11-03 20:56:53,396 ] 236 MLProject - INFO - Preprocessor Object Saved Successfully
+[ 2026-11-03 20:56:53,397 ] 140 MLProject - INFO - Data Transformation Completed
+[ 2026-11-03 20:56:53,397 ] 151 MLProject - INFO - Model Trainer Object Created
+[ 2026-11-03 20:56:53,397 ] 46 MLProject - INFO - Entered Model Trainer
+[ 2026-11-03 20:56:53,398 ] 48 MLProject - INFO - Splitting training and testing input data
+[ 2026-11-03 20:56:53,398 ] 87 MLProject - INFO - Model cross-validation started
+[ 2026-11-03 20:56:53,488 ] 111 MLProject - INFO - Logistic Regression CV F1 Score: 0.8549
+[ 2026-11-03 20:56:53,530 ] 111 MLProject - INFO - Decision Tree CV F1 Score: 0.8035
+[ 2026-11-03 20:56:56,085 ] 111 MLProject - INFO - Random Forest CV F1 Score: 0.8507
+[ 2026-11-03 20:56:56,199 ] 111 MLProject - INFO - KNN CV F1 Score: 0.8159
+[ 2026-11-03 20:56:56,199 ] 126 MLProject - INFO - Best Model Found: Logistic Regression
+[ 2026-11-03 20:56:56,200 ] 130 MLProject - INFO - Best Model CV F1 Score: 0.8549
+[ 2026-11-03 20:56:56,225 ] 146 MLProject - INFO - Evaluation Report: {'Logistic Regression': {'Train Accuracy': 0.8985507246376812, 'Test Accuracy': 0.8260869565217391, 'Precision': 0.8382352941176471, 'Recall': 0.8142857142857143, 'F1 Score': 0.8260869565217391}}
+[ 2026-11-03 20:56:56,227 ] 158 MLProject - INFO - Best Model Saved Successfully
+[ 2026-11-03 20:56:56,227 ] 163 MLProject - INFO - Model Training Completed

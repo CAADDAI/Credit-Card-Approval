@@ -1,0 +1,20 @@
+[ 2026-11-03 20:37:50,705 ] 100 MLProject - INFO - Application Started
+[ 2026-11-03 20:37:50,705 ] 104 MLProject - INFO - Data Ingestion Object Created
+[ 2026-11-03 20:37:50,705 ] 40 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-03 20:37:51,734 ] 49 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-03 20:37:51,743 ] 64 MLProject - INFO - Raw Dataset Saved
+[ 2026-11-03 20:37:51,752 ] 72 MLProject - INFO - Train Test Split Completed
+[ 2026-11-03 20:37:51,759 ] 86 MLProject - INFO - Train and Test Files Saved
+[ 2026-11-03 20:37:51,759 ] 108 MLProject - INFO - Data Ingestion Completed
+[ 2026-11-03 20:37:51,767 ] 112 MLProject - INFO - Data Transformation Object Created
+[ 2026-11-03 20:37:51,767 ] 122 MLProject - INFO - Data Transformation Started
+[ 2026-11-03 20:37:51,788 ] 132 MLProject - INFO - Train Columns: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+[ 2026-11-03 20:37:51,788 ] 136 MLProject - INFO - Train and test datasets loaded successfully
+[ 2026-11-03 20:37:51,795 ] 152 MLProject - INFO - Missing values replaced successfully
+[ 2026-11-03 20:37:51,799 ] 189 MLProject - INFO - Target variable transformed successfully
+[ 2026-11-03 20:37:51,800 ] 105 MLProject - INFO - Preprocessor object created successfully
+[ 2026-11-03 20:37:51,800 ] 197 MLProject - INFO - Applying preprocessing object
+[ 2026-11-03 20:37:51,903 ] 213 MLProject - INFO - Transformation completed successfully
+[ 2026-11-03 20:37:51,903 ] 227 MLProject - INFO - Saving Preprocessor Object
+[ 2026-11-03 20:37:51,907 ] 236 MLProject - INFO - Preprocessor Object Saved Successfully
+[ 2026-11-03 20:37:51,908 ] 121 MLProject - INFO - Data Transformation Completed

@@ -1,0 +1,23 @@
+[ 2026-11-06 13:10:06,448 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-11-06 13:10:06,456 ] 97 werkzeug - INFO -  * Debugger PIN: 110-784-382
+[ 2026-11-06 13:10:10,100 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:10:10] "[35m[1mGET /form HTTP/1.1[0m" 500 -
+[ 2026-11-06 13:10:10,295 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:10:10] "[36mGET /form?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2026-11-06 13:10:10,298 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:10:10] "[36mGET /form?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2026-11-06 13:10:10,323 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:10:10] "GET /form?__debugger__=yes&cmd=resource&f=console.png&s=CK2sdtTa6EBY1fNhnCLt HTTP/1.1" 200 -
+[ 2026-11-06 13:10:10,604 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:10:10] "[36mGET /form?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2026-11-06 13:18:48,641 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:18:48] "GET /form HTTP/1.1" 200 -
+[ 2026-11-06 13:24:48,211 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:24:48] "GET /form HTTP/1.1" 200 -
+[ 2026-11-06 13:27:36,671 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:27:36] "GET /form HTTP/1.1" 200 -
+[ 2026-11-06 13:27:56,065 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:27:56] "GET /form HTTP/1.1" 200 -
+[ 2026-11-06 13:28:05,942 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:28:05] "GET /form HTTP/1.1" 200 -
+[ 2026-11-06 13:28:31,341 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:28:31] "GET /form HTTP/1.1" 200 -
+[ 2026-11-06 13:30:45,677 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:30:45] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:32:48,280 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:32:48] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:34:04,471 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:34:04] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:34:17,702 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:34:17] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:35:28,033 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:35:28] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:36:06,559 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:36:06] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:36:52,238 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:36:52] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:41:51,098 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:41:51] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:46:01,596 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Nov/2026 13:46:01] "POST /predict HTTP/1.1" 200 -
+[ 2026-11-06 13:54:01,464 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading

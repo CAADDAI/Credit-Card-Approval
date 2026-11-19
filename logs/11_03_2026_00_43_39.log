@@ -1,0 +1,13 @@
+[ 2026-11-03 00:43:39,551 ] 110 MLProject - INFO - Application Started
+[ 2026-11-03 00:43:39,552 ] 114 MLProject - INFO - Data Ingestion Object Created
+[ 2026-11-03 00:43:39,552 ] 40 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-03 00:43:40,626 ] 51 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-03 00:43:40,638 ] 68 MLProject - INFO - Raw Dataset Saved
+[ 2026-11-03 00:43:40,654 ] 78 MLProject - INFO - Train Test Split Completed
+[ 2026-11-03 00:43:40,661 ] 94 MLProject - INFO - Train and Test Files Saved
+[ 2026-11-03 00:43:40,662 ] 120 MLProject - INFO - Data Ingestion Completed
+[ 2026-11-03 00:43:40,662 ] 128 MLProject - INFO - Data Transformation Object Created
+[ 2026-11-03 00:43:40,662 ] 128 MLProject - INFO - Data Transformation Started
+[ 2026-11-03 00:43:40,682 ] 136 MLProject - INFO - Train and test datasets loaded successfully
+[ 2026-11-03 00:43:40,690 ] 152 MLProject - INFO - Missing values replaced successfully
+[ 2026-11-03 00:43:40,690 ] 248 MLProject - ERROR - Cannot specify both 'axis' and 'index'/'columns'

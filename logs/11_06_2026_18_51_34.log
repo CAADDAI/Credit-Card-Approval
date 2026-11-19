@@ -1,0 +1,31 @@
+[ 2026-11-06 18:51:34,372 ] 31 root - INFO - Training Pipeline Started
+[ 2026-11-06 18:51:34,372 ] 43 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-06 18:51:35,493 ] 53 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-06 18:51:35,502 ] 70 MLProject - INFO - Raw Dataset Saved
+[ 2026-11-06 18:51:35,511 ] 79 MLProject - INFO - Train Test Split Completed
+[ 2026-11-06 18:51:35,518 ] 95 MLProject - INFO - Train and Test Files Saved
+[ 2026-11-06 18:51:35,518 ] 43 root - INFO - Data Ingestion Completed
+[ 2026-11-06 18:51:35,518 ] 122 MLProject - INFO - Data Transformation Started
+[ 2026-11-06 18:51:35,537 ] 132 MLProject - INFO - Train Columns: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+[ 2026-11-06 18:51:35,537 ] 136 MLProject - INFO - Train and test datasets loaded successfully
+[ 2026-11-06 18:51:35,544 ] 152 MLProject - INFO - Missing values replaced successfully
+[ 2026-11-06 18:51:35,548 ] 189 MLProject - INFO - Target variable transformed successfully
+[ 2026-11-06 18:51:35,549 ] 105 MLProject - INFO - Preprocessor object created successfully
+[ 2026-11-06 18:51:35,549 ] 197 MLProject - INFO - Applying preprocessing object
+[ 2026-11-06 18:51:35,652 ] 213 MLProject - INFO - Transformation completed successfully
+[ 2026-11-06 18:51:35,653 ] 227 MLProject - INFO - Saving Preprocessor Object
+[ 2026-11-06 18:51:35,656 ] 236 MLProject - INFO - Preprocessor Object Saved Successfully
+[ 2026-11-06 18:51:35,657 ] 65 root - INFO - Data Transformation Completed
+[ 2026-11-06 18:51:35,657 ] 46 MLProject - INFO - Entered Model Trainer
+[ 2026-11-06 18:51:35,657 ] 48 MLProject - INFO - Splitting training and testing input data
+[ 2026-11-06 18:51:35,657 ] 87 MLProject - INFO - Model cross-validation started
+[ 2026-11-06 18:51:35,741 ] 111 MLProject - INFO - Logistic Regression CV F1 Score: 0.8549
+[ 2026-11-06 18:51:35,789 ] 111 MLProject - INFO - Decision Tree CV F1 Score: 0.8035
+[ 2026-11-06 18:51:38,149 ] 111 MLProject - INFO - Random Forest CV F1 Score: 0.8507
+[ 2026-11-06 18:51:38,284 ] 111 MLProject - INFO - KNN CV F1 Score: 0.8159
+[ 2026-11-06 18:51:38,284 ] 126 MLProject - INFO - Best Model Found: Logistic Regression
+[ 2026-11-06 18:51:38,284 ] 130 MLProject - INFO - Best Model CV F1 Score: 0.8549
+[ 2026-11-06 18:51:38,308 ] 146 MLProject - INFO - Evaluation Report: {'Logistic Regression': {'Train Accuracy': 0.8985507246376812, 'Test Accuracy': 0.8260869565217391, 'Precision': 0.8382352941176471, 'Recall': 0.8142857142857143, 'F1 Score': 0.8260869565217391}}
+[ 2026-11-06 18:51:38,310 ] 158 MLProject - INFO - Best Model Saved Successfully
+[ 2026-11-06 18:51:38,310 ] 82 root - INFO - Model Training Completed
+[ 2026-11-06 18:51:38,310 ] 86 root - INFO - Best Model Score: ('Logistic Regression', np.float64(0.8548551975510505))

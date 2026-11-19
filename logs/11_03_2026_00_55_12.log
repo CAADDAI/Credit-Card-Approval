@@ -1,0 +1,14 @@
+[ 2026-11-03 00:55:12,797 ] 110 MLProject - INFO - Application Started
+[ 2026-11-03 00:55:12,798 ] 114 MLProject - INFO - Data Ingestion Object Created
+[ 2026-11-03 00:55:12,798 ] 40 MLProject - INFO - Entered Data Ingestion Method
+[ 2026-11-03 00:55:13,662 ] 51 MLProject - INFO - Dataset loaded successfully
+[ 2026-11-03 00:55:13,671 ] 68 MLProject - INFO - Raw Dataset Saved
+[ 2026-11-03 00:55:13,680 ] 78 MLProject - INFO - Train Test Split Completed
+[ 2026-11-03 00:55:13,687 ] 94 MLProject - INFO - Train and Test Files Saved
+[ 2026-11-03 00:55:13,687 ] 120 MLProject - INFO - Data Ingestion Completed
+[ 2026-11-03 00:55:13,694 ] 128 MLProject - INFO - Data Transformation Object Created
+[ 2026-11-03 00:55:13,695 ] 122 MLProject - INFO - Data Transformation Started
+[ 2026-11-03 00:55:13,712 ] 132 MLProject - INFO - Train Columns: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+[ 2026-11-03 00:55:13,712 ] 136 MLProject - INFO - Train and test datasets loaded successfully
+[ 2026-11-03 00:55:13,719 ] 152 MLProject - INFO - Missing values replaced successfully
+[ 2026-11-03 00:55:13,720 ] 253 MLProject - ERROR - '[15] not found in axis'
